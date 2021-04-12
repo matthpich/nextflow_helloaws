@@ -16,7 +16,6 @@ process hello {
     file 'hello.txt'
 
     """
-    samtools --version|head -n 1 > hello.txt
     echo "Hello $text" >> hello.txt
     """
 }
